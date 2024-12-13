@@ -1,0 +1,66 @@
+.parent-div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5em;
+}
+.section4-div1{
+    width: 50%;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 1em;
+}
+.section4-div2{
+    width: 50%;
+    text-align: center;
+    padding: 1em 1em;
+}
+.section4-form{
+    padding: 5px;
+    background: white;
+}
+.section4-textarea{
+    padding: 10px;
+    width: 68%;
+    border-radius: 4px;
+}
+.section4-button{
+    text-align: start;
+}
+.section4-table{
+    width: 100%;
+
+    justify-content: start;
+    margin-top: -11em;
+}
+
+@media (max-width:768px){
+    .parent-div{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .section4-div1{
+        width: 100%;
+      
+    }
+    .section4-div2{
+        width: 100%;
+        margin: 12em; 
+    }
+}
+
+@media (max-width:468px){
+    .parent-div{
+        margin-top: 1em;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .section4-div1{
+        width: 100%;
+      
+    }
+    .section4-div2{
+        width: 100%;
+        margin: 12em; 
+    }
+}

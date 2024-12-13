@@ -1,0 +1,148 @@
+/* General Footer Styling */
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 40px 40px;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+
+  }
+  
+  .footer-section1 {
+    flex: 1;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+  }
+
+  .footer-section2 {
+    flex: 1;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+  }
+
+  .footer-section3 {
+    flex: 1;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+  }
+  
+  .f-section-h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f9a826;
+  }
+  
+  .footer-section p,
+  .footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .footer-section a:hover {
+    color: #f9a826;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #f9a826;
+  }
+  
+  /* Quick Links Styling */
+  .quick-links {
+    list-style: none;
+    display: block;
+    margin-left: -2em;
+  }
+  
+  .quick-links li {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #ccc;
+  }
+  
+  .quick-links a:hover {
+    color: #f9a826;
+  }
+  
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-section {
+      flex-direction: column;
+      padding: 5px;
+    }
+    .footer-section1 {
+      width: 94%;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .footer-section2 {
+      width: 94%;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .footer-section3 {
+      width: 94%;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+  
+  }
+  
+  @media (max-width: 480px) {
+    .footer-section {
+      flex-direction: column;
+      padding: 5px;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+    .footer-section1 {
+      width: 90%;
+      flex: 1;
+      padding-left: 8px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .footer-section2 {
+      width: 90%;
+      flex: 1;
+      padding-left: 8px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .footer-section3 {
+      width: 90%;
+      flex: 1;
+      padding-left: 8px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .footer-section p,
+    .footer-section a {
+      font-size: 12px;
+    }
+  
+    .social-icons a {
+      font-size: 16px;
+    }
+  }
+  

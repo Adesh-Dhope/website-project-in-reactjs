@@ -1,0 +1,196 @@
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-div1{
+    width: 50%;
+    height: 100%;
+    padding: 5em;
+    padding-top: 9em;
+}
+.h-div2{
+    width: 50%;
+    height: 100%;
+    padding: 5em;
+    background-image: url('https://kit.sociolib.com/atomic/wp-content/uploads/sites/17/2024/10/15.webp');
+    background-size: cover; 
+    background-position: center;
+}
+.heading-h1{
+    font-size: 40px;
+    margin-top: -10px;
+}
+.class-p{
+    margin-top: -10px;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(79, 79, 225);
+}
+
+
+
+@media (max-width: 768px) {
+    .first-section{
+        flex-direction: column;
+    }
+    .h-div1{
+        width: 100%;
+        padding: 5em;
+        padding-top: 9em;
+    }
+    .h-div2{
+        display: none;
+    }
+    .class-p{
+        margin-top: -10px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media (max-width: 468px) {
+    .first-section{
+        flex-direction: column;
+    }
+    .heading-h1{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    .h-div1{
+        width: 100%;
+        padding: 10px;
+        padding-top: 2em;
+    }
+    .class-p{
+        margin-top: -10px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-div1{
+    width: 50%;
+    margin: 5em;
+}
+.m-div2{
+    width: 50%;
+    margin: 5em;
+    
+}
+.section1-image{
+    width: 100%;
+    border-radius: 1em;
+}
+
+
+.accordion-container {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-title.active {
+    background-color: #e6f7ff;
+}
+
+.accordion-title:hover {
+    background-color: #f1f1f1;
+}
+
+.accordion-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.accordion-content {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .second-section{
+        flex-direction: column;
+    }
+    .m-div1{
+       width: 100%;
+    }
+    .m-div2{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .second-section{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .m-div1{
+       width: 100%;
+       height: 100%;
+       margin-top: 1em;
+    }
+    .m-div2{
+        width: 100%;
+        height: 100%;
+        margin-top: -2em;
+    }
+    .accordion-container{
+        width: 100%;
+    }
+    
+}
+
+
+.div-icon{
+    width: 30%;
+    padding: 1em;
+}

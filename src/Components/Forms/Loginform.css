@@ -1,0 +1,52 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .login-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .close-btn {
+    margin-top: 1rem;
+    background: #dc3545;
+  }
+  
+  @media (max-width:468px){
+    .login-form{
+      width: 80%;
+      margin: 2em;
+    }
+  }

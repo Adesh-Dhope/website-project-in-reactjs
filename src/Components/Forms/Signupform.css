@@ -1,0 +1,51 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sign-up-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .sign-up-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .sign-up-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sign-up-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .close-btn {
+    margin-top: 1rem;
+    background: #dc3545;
+  }
+  
+  @media (max-width:468px){
+    .sign-up-form{
+      margin: 2em;
+    }
+  }

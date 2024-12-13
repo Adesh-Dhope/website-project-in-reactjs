@@ -1,0 +1,33 @@
+
+.container {
+    margin-top: 2rem;
+    padding: 3em;
+    background-color: bisque;
+  }
+  
+  .task-list {
+    margin-top: 2rem;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .task-completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .task-active {
+    text-decoration: none;
+    color: black;
+  }
+
+  .no-tasks {
+    color: #6c757d;
+  }
+  

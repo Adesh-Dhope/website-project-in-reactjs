@@ -1,0 +1,123 @@
+/* Overlay Background */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 50% background opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  /* Popup Container */
+  .popup-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .close-button{
+  background: #007bff;
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 5px;
+}
+  .close-button:hover {
+    background-color: #0c2947;
+  }
+  
+  /* Popup Title */
+  .popup-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Popup Text */
+  .popup-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Email Input */
+  .email-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Subscribe Button */
+  .subscribe-button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .popup-container {
+      padding: 20px;
+    }
+  
+    .popup-title {
+      font-size: 20px;
+    }
+  
+    .popup-text {
+      font-size: 14px;
+    }
+  
+    .email-input {
+      font-size: 12px;
+    }
+  
+    .subscribe-button {
+      font-size: 14px;
+    }
+  }
+  
+@media(max-width:468px){
+  .popup-container{
+    margin: 10px;
+  }
+  .email-input{
+    width: 93%;
+  }
+ 
+}
